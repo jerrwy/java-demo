@@ -1,7 +1,9 @@
 package com.demo;
+import com.demo.Dog;
 
-public class helloWorld {
+public class HelloWorld {
   public static void main(String[] args) {
-    System.out.print("hello java");
+    Dog dog = new Dog();
+    dog.call();
   }
 }
